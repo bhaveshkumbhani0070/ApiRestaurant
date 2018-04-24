@@ -1,0 +1,21 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "restaurant app api for admin panel and app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kumbhanibhavesh1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-busboy": "0.0.2",
+    "express": "^4.16.3",
+    "express-validator": "^5.1.2",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.15",
+    "validator": "^9.4.1"
+  }
+}
