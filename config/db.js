@@ -1,5 +1,4 @@
-// // var mongoUrl = process.env.MONGODB_URI;
-var mongoUrl = "mongodb://kumbhanibhavesh:alex9099414492@ds145019.mlab.com:45019/restaurant";
+var mongoUrl = process.env.MONGODB_URI;
 if (!mongoUrl) {
     console.log('PLease export mongoUrl');
     console.log('Use following commmand');
